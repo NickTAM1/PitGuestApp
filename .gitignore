@@ -1,0 +1,36 @@
+# IntelliJ / Android Studio
+.idea/
+*.iml
+out/
+
+# Gradle / Kotlin
+.gradle/
+.kotlin/
+**/build/
+!src/**/build/
+
+# Android local machine files
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+*.keystore
+*.jks
+
+# Xcode user-specific and derived files
+DerivedData/
+xcuserdata/
+*.xcuserstate
+
+# Keep shared Xcode project metadata, ignore user data
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+# Common OS / tooling artifacts
+.DS_Store
+Thumbs.db
+node_modules/
